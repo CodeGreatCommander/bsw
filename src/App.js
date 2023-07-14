@@ -1,14 +1,14 @@
-import { BrowserRouter } from 'react-router-dom';
-import './App.css';
-import Header from './components/navbar/header';
-import Footer from './components/footer/footer';
-import Latestupdates from './components/home/templates/latestupdates';
-import BoardUnits from './components/home/templates/boardunits';
+import "./App.css";
+import Home from "./pages/Home";
+import Faq from "./pages/Faq"
+import { Route, Routes } from "react-router-dom";
 
 function App() {
   return (
-    <BrowserRouter><Header/><Latestupdates/><BoardUnits/><Footer/>
-    </BrowserRouter>
+    <Routes>
+      <Route path="/" element={<Home />}></Route>
+      <Route path="/faqs" element={<Faq/>}></Route>
+    </Routes>
   );
 }
 

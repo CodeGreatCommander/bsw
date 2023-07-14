@@ -2,7 +2,8 @@ import { Link, NavLink } from 'react-router-dom'
 
 import logo from '../../assets/Logo.svg'
 export default function Navbar(){
-    return(<><nav className="navbar d-md-none">
+    return(<div  className="navigation-bar">
+    <nav className="navbar d-md-none">
     <div className="container-fluid">
     <Link className="navbar-brand" to="#">
           <img id="logo" src={logo}/>
@@ -17,10 +18,10 @@ export default function Navbar(){
         <div className="offcanvas-body show">
           <ul className="navbar-nav justify-content-end flex-grow-1 pe-3 w-100">
             <li className="nav-item w-100">
-              <NavLink className="nav-link off" aria-current="page" to="#"  >HOME</NavLink>
+              <NavLink className="nav-link off" aria-current="page" to="/"  >HOME</NavLink>
             </li>
             <li className="nav-item w-100">
-              <NavLink className="nav-link off" aria-current="page" to="#" >ABOUT US</NavLink>
+              <NavLink className="nav-link off" aria-current="page" to="app" >ABOUT US</NavLink>
             </li>
             <li className="nav-item w-100">
               <NavLink className="nav-link off" aria-current="page" to="#" >WHAT WE DO</NavLink>
@@ -51,7 +52,7 @@ export default function Navbar(){
       <div className="collapse navbar-collapse" id="navbarNav">
       <ul className="navbar-nav d-flex justify-content-evenly w-100">
             <li className="nav-item">
-              <NavLink className="nav-link"  to="#">
+              <NavLink className="nav-link"  to="/">
                 HOME
               </NavLink>
             </li>
@@ -89,6 +90,6 @@ export default function Navbar(){
       </div>
     </div>
   </nav>
-  </>
+  </div>
   )
 }
