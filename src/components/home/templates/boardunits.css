@@ -1,0 +1,9 @@
+.Card{
+    width: 19.5rem;
+    height: 28.5rem;
+}
+.align{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

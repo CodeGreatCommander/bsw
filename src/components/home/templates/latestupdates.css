@@ -1,0 +1,126 @@
+.lumain {
+  border-radius: 1.5rem;
+  background: #404040;
+  width: 80%;
+}
+.align {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+#luheadertext {
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.dotted-hr {
+  width: 100%;
+  border: none;
+  border-top: 0.3rem dashed white;
+  opacity: 1;
+  height: 0;
+  margin: 0;
+}
+
+.outer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding-left: 3px;
+  padding-right: 3px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.date {
+  flex-grow: 1;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+.lubodytext {
+  flex-grow: 4;
+}
+.number {
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.month {
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.lubodytext {
+  color: #fff;
+  font-family: Raleway;
+  font-size: 0.4 rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.bgcolor-green {
+  background-color: rgba(33, 170, 158, 1);
+  border-bottom-left-radius: 1.5rem; /* Border radius on bottom left */
+  border-bottom-right-radius: 1.5rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .outer {
+    flex-direction: column;
+  }
+  .lubodytext {
+    padding-left: 2rem;
+  }
+  .date {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    margin-bottom: 1rem;
+  }
+  .month {
+    font-size: 1.2rem;
+  }
+  .number {
+    font-size: 1.2rem;
+  }
+  #luheadertext {
+    color: #fff;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .dotted-hr{
+    width: 90%;
+  }
+  .mobileviewtext{
+    color: #FFF;
+font-family: Poppins;
+font-size: 1rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+  }
+}

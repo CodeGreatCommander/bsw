@@ -1,0 +1,54 @@
+@media screen and (min-width: 700px){
+#footer {
+  display: flex;
+  justify-content: start;
+}}
+.outerfooter{
+    background-color: rgba(33, 170, 158, 1);
+}
+#left .text {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 1.022rem;
+  font-style: normal;
+  font-weight: 400;
+}
+.bswintro{
+    padding-left:3.48rem ;
+}
+ul {
+    list-style: none;
+    margin-left: 1.5rem;
+    width:10rem;
+  }
+a{
+    text-decoration: none;
+    color:white
+}
+a:visited {
+    text-decoration: none;
+}
+.heading{
+    color: #FFF;
+font-family: Poppins;
+font-size: 1.7rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+li{
+    padding-bottom: 0.5rem;
+}
+#right{
+    border-left: 6.543px solid white;
+}
+#left{
+    margin-right: 3rem;
+}
+.images{
+    width: 2rem;
+}
+.contactusfooter{
+    width: 4rem;
+    margin: 1rem;
+}

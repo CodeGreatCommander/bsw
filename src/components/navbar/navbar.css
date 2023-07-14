@@ -1,0 +1,27 @@
+#logo {
+  width: 7.30925rem;
+}
+.navigation-bar,.offcanvas {
+  background: rgba(33, 170, 158, 1);
+}
+.nav-link {
+  color: white;
+  font-family: Poppins;
+}
+.active {
+  color: #fff!important;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 800;
+  text-decoration-line: underline;
+}
+.offcanvas-body .active{
+  background-color: rgba(54, 102, 98, 1)!important;
+  color: #fff!important;
+  font-weight: 800;
+}
+#carousel{
+  padding-bottom:  6.13375rem;
+}
+
+
