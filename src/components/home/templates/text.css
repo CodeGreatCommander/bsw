@@ -33,3 +33,20 @@
     border: none;
     border-top: 2px solid rgba(52, 172, 194, 1);
 }
+
+@media only screen and (max-width: 600px){
+  .TextBlockcontainer {
+    padding-left:0;
+  }
+  .TextBlockcontainer .TextBlockbody {
+    padding-left: 0rem;
+  }
+  .TextBlockheading{
+    font-size: 1.2rem;
+    margin-bottom: 0.3rem;
+  }
+  .body{
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
+  }  
+}

@@ -1,5 +1,6 @@
 import './boardunits.css'
 import taskcompleted from '../../../assets/taskcompleted.svg'
+import { useState } from 'react'
 
 function Card(){
     return(<div className='Card align'>
@@ -14,17 +15,44 @@ function Card(){
         </div>
     </div>)
 }
+
+function Circle(){
+    return <div className="circle"></div>;
+}
+function MobileView(){
+    const [index,setIndex]=useState(0);
+    return(
+        <div className='container'>
+            <div className={''+(index==0?"align ":"hidden")} >
+                <Card/>
+            </div>
+            <div className={''+(index==1?"align" :" hidden")} >
+                <Card/>
+            </div>
+            <div className={''+(index==2?"align ":" hidden")} >
+                <Card/>
+            </div>
+            <div className='carousel-dots'>
+                <div className={index==0?"active":""} onClick={()=>{setIndex(0)}}><Circle /></div>
+                <div className={index==1?"active":""} onClick={()=>{setIndex(1)}}><Circle /></div>
+                <div className={index==2?"active":""} onClick={()=>{setIndex(2)}}><Circle /></div>
+            </div>
+        </div>
+    )
+}
+
 export default function BoardUnits(){
     return(<div className='containerboardunits'>
         <div className='outerboardunits'>
             <div className='boardunitstextcoantianer'>
                 <h1 id='boardunitstext'>BOARD UNITS</h1>
             </div>
+            {window.innerWidth > 600 ? (
             <div className='innerboardunits'>
                 <div className=''><Card/></div>
                 <div className=''><Card/></div>
                 <div className=''><Card/></div>
-            </div>
+            </div>):<MobileView/>}
         </div>
     </div>)
 }
