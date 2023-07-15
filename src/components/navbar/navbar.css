@@ -7,6 +7,9 @@
 .nav-link {
   color: white;
   font-family: Poppins;
+  font-weight: 800;
+  text-decoration-line: underline;
+
 }
 .active {
   color: #fff!important;

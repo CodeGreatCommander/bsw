@@ -17,7 +17,7 @@ export default function Navbar(){
         <div className="offcanvas-body show">
           <ul className="navbar-nav justify-content-end flex-grow-1 pe-3 w-100">
             <li className="nav-item w-100">
-              <NavLink className="nav-link off" aria-current="page" to="#"  >HOME</NavLink>
+              <NavLink className="nav-link off" aria-current="page" to="/"  >HOME</NavLink>
             </li>
             <li className="nav-item w-100">
               <NavLink className="nav-link off" aria-current="page" to="#" >ABOUT US</NavLink>
@@ -27,6 +27,9 @@ export default function Navbar(){
             </li>
             <li className="nav-item w-100">
               <NavLink className="nav-link off" aria-current="page" to="#" >RESOURCES</NavLink>
+            </li>
+            <li className="nav-item w-100">
+              <NavLink className="nav-link off" aria-current="page" to="/faqs" >FAQs</NavLink>
             </li>
             <li className="nav-item w-100">
               <NavLink className="nav-link off" aria-current="page" to="#" >CONTACT US</NavLink>
@@ -51,7 +54,7 @@ export default function Navbar(){
       <div className="collapse navbar-collapse" id="navbarNav">
       <ul className="navbar-nav d-flex justify-content-evenly w-100">
             <li className="nav-item">
-              <NavLink className="nav-link"  to="#">
+              <NavLink className="nav-link"  to="/">
                 HOME
               </NavLink>
             </li>
@@ -70,8 +73,8 @@ export default function Navbar(){
                 RESOURCES
               </NavLink>
             </li>
-            <li className="nav-item">
-              <NavLink className="nav-link"  to="#">
+            <li className="nav-item  ">
+              <NavLink className="nav-link"  to="/faqs">
                 FAQS
               </NavLink>
             </li>
