@@ -1,0 +1,40 @@
+{
+    "general": [
+      {
+        "id": 1,
+        "question": "What is Lorem Ipsum?",
+        "answer": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+      },
+      {
+        "id": 2,
+        "question": "What is React?",
+        "answer": "React is a JavaScript library for building user interfaces."
+      }
+    ],
+    "courses": [
+      {
+        "id": 3,
+        "question": "How can I enroll in a course?",
+        "answer": "To enroll in a course, you can visit our website and follow the instructions on the course page."
+      },
+      {
+        "id": 4,
+        "question": "Do you offer online courses?",
+        "answer": "Yes, we offer a variety of online courses."
+      }
+    ],
+    "withdraw": [
+        {
+          "id": 1,
+          "question": "What is Lorgrhm Ipsum?",
+          "answer": "Lorem Ipsum jhrjrtkkyr dummy text of the printing and typesetting industry."
+        },
+        {
+          "id": 2,
+          "question": "Wgwrs React?",
+          "answer": "Reykrererererererererererere library for building user interfaces."
+        }
+      ]
+
+  }
+  

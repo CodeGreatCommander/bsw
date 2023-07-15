@@ -2,7 +2,7 @@ import { Link, NavLink } from 'react-router-dom'
 
 import logo from '../../assets/Logo.svg'
 export default function Navbar(){
-    return(<><nav className="navbar d-md-none">
+    return(<div className='navigation-bar'><nav className="navbar d-md-none">
     <div className="container-fluid">
     <Link className="navbar-brand" to="#">
           <img id="logo" src={logo}/>
@@ -89,6 +89,6 @@ export default function Navbar(){
       </div>
     </div>
   </nav>
-  </>
+  </div>
   )
 }
