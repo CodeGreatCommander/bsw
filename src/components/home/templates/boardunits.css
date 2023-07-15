@@ -1,9 +1,86 @@
 .Card{
     width: 19.5rem;
     height: 28.5rem;
+    border-radius: 3.06688rem;
+    background: #FFF;
+    margin:10px;
 }
 .align{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+#image{
+    width: 4.6rem;
+    height: 4.6rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+#heading{
+    color: #000;
+text-align: center;
+font-family: Poppins;
+font-size: 1.6rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+margin-bottom:1rem;
+}
+#text{
+    color: #000;
+text-align: center;
+font-family: Raleway;
+font-size: 0.9rem;
+font-style: normal;
+font-weight: 300;
+line-height: 140%;
+letter-spacing: 0.07363rem;
+overflow: auto;
+width: 15.99763rem;
+}
+.text-gradient-opacity {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+    background-clip: text;
+    -webkit-background-clip: text; /* For Safari */
+    color: transparent;
+  }
+
+
+
+#boardunitstext{
+    color: #FFF;
+font-family: Poppins;
+font-size: 3.2rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+writing-mode: vertical-rl;
+transform: scale(-1,-1);
+}
+.outerboardunits{
+    border-top-left-radius: 1.5rem;
+    border-bottom-left-radius:1.5rem ;
+    background: #21AA9E;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    padding-right: 3rem;
+}
+.innerboardunits{
+    display: flex;
+    flex-direction: row;
+}
+.boardunitstextcoantianer{
+  white-space: nowrap;
+  width: fit-content;
+  height: max-content;
+  flex-shrink: 0;
+}
+.containerboardunits{
+    display: flex;
+    justify-content: end;
+    margin-bottom: 3rem;
 }

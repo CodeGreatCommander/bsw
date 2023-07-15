@@ -1,0 +1,35 @@
+.TextBlockcontainer {
+  padding-left: 5rem ;
+}
+.TextBlockheading{
+    color: #000;
+  font-family: Poppins;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: bolder;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-top: 0.6rem;
+  margin-bottom: 0.6rem;
+}
+.TextBlockcontainer .TextBlockbody {
+  color: #030303;
+  text-align: justify;
+  font-family: Raleway;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  padding-left: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  opacity: 0.9;
+  text-transform: initial;
+}
+.body{
+    padding-left: 5rem;
+}
+.body .hr{
+    border: none;
+    border-top: 2px solid rgba(52, 172, 194, 1);
+}

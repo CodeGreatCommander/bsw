@@ -1,13 +1,10 @@
 import { BrowserRouter } from 'react-router-dom';
 import './App.css';
-import Header from './components/navbar/header';
-import Footer from './components/footer/footer';
-import Latestupdates from './components/home/templates/latestupdates';
-import BoardUnits from './components/home/templates/boardunits';
+import Home from './components/home/home';
 
 function App() {
   return (
-    <BrowserRouter><Header/><Latestupdates/><BoardUnits/><Footer/>
+    <BrowserRouter><Home/>
     </BrowserRouter>
   );
 }
