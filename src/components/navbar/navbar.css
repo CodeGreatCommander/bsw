@@ -8,7 +8,6 @@
   color: white;
   font-family: Poppins;
   font-weight: 800;
-  text-decoration-line: underline;
 
 }
 .active {
@@ -25,6 +24,20 @@
 }
 #carousel{
   padding-bottom:  6.13375rem;
+}
+@media only screen and (max-width: 600px) {
+  #carousel{
+    padding-bottom:  1.13375rem;
+  }
+  .navigation-bar .offcanvas-body{
+    padding-left: 0;
+  }
+  .navigation-bar ul{
+    margin-left: 0rem;
+  }
+  .active{
+    text-decoration: none;
+  }
 }
 
 

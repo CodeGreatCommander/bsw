@@ -38,13 +38,10 @@ line-height: 140%;
 letter-spacing: 0.07363rem;
 overflow: auto;
 width: 15.99763rem;
+background: -webkit-linear-gradient( #333,#928e8e);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 }
-.text-gradient-opacity {
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
-    background-clip: text;
-    -webkit-background-clip: text; /* For Safari */
-    color: transparent;
-  }
 
 
 
@@ -111,9 +108,12 @@ transform: scale(-1,-1);
         justify-content: center;
         width: 100%;
         padding: 0;
+        border-radius: 1.5rem;
     }
     #boardunitstext{
         transform: scale(1,1);
         writing-mode: horizontal-tb;
+        font-size: 2rem;
+        padding-top: 1rem;
     }
 }

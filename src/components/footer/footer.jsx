@@ -27,7 +27,7 @@ export default function Footer(){
                     </div>
                 </div>
                 <div className='row'>
-                    <div className='col-3'>
+                    <div className='col-2'>
                         <img src={mail} className='images'/>
                     </div>
                     <div className='col text'>

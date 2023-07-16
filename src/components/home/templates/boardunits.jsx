@@ -19,17 +19,40 @@ function Card(){
 function Circle(){
     return <div className="circle"></div>;
 }
+
 function MobileView(){
     const [index,setIndex]=useState(0);
+    const [startX, setStartX] = useState(0);
+
+  const handleTouchStart = (e) => {
+    setStartX(e.touches[0].clientX);
+  };
+
+  const handleTouchMove = (e) => {
+    const currentX = e.changedTouches[0].clientX;
+    const diff = startX - currentX;
+
+    if (diff > 50) {
+      // Swiped to the right
+      setIndex((prevIndex) => (prevIndex < 2 ? prevIndex + 1 : 0));
+    } else if (diff < -50) {
+      // Swiped to the left
+      setIndex((prevIndex) => (prevIndex > 0 ? prevIndex - 1 : 2));
+    }
+  };
     return(
         <div className='container'>
-            <div className={''+(index==0?"align ":"hidden")} >
+        <hr className="dotted-hr align"/>
+            <div className={''+(index==0?"align ":"hidden")} onTouchStart={handleTouchStart}
+        onTouchEnd={handleTouchMove} >
                 <Card/>
             </div>
-            <div className={''+(index==1?"align" :" hidden")} >
+            <div className={''+(index==1?"align" :" hidden")}  onTouchStart={handleTouchStart}
+        onTouchEnd={handleTouchMove}>
                 <Card/>
             </div>
-            <div className={''+(index==2?"align ":" hidden")} >
+            <div className={''+(index==2?"align ":" hidden")} onTouchStart={handleTouchStart}
+        onTouchEnd={handleTouchMove}>
                 <Card/>
             </div>
             <div className='carousel-dots'>
