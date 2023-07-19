@@ -1,0 +1,65 @@
+
+
+.member{
+    display: flex;
+    max-width: max-content;
+    border-radius: 15px;
+    max-height: max-content;
+    padding: 4px 8px;
+    overflow: hidden;
+    color: white;
+    padding-bottom: 5px;
+    background-color:  #404040;
+    flex-direction: column;
+}
+.dotted-line{
+    display: flex;
+    gap: 2px;
+    margin-bottom: 10px;
+}
+.dotted-line .dot{
+    width: 10px;
+    height: 3px;
+
+}
+
+.desc{
+    display: flex;
+    gap: 10px;
+    margin: auto;
+    padding: 5px 10px;
+    overflow: hidden;
+    justify-content: center;
+}
+
+img{
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 10px ;
+    height: 90px;
+    width: 90px;
+}
+.member-info{
+    padding-right: 2px;
+    margin: auto;
+    justify-content:center;
+    display: flex;
+    flex-direction: column;
+}
+.call{
+    display: flex;
+    gap: 2px;
+    height: 30px;
+    vertical-align: middle;
+    color: aliceblue;
+}
+.email{
+    display: flex;
+    gap: 2px;
+    align-content: center;
+    align-items: center;
+    vertical-align: middle;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+

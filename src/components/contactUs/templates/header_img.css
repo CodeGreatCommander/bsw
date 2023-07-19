@@ -1,0 +1,16 @@
+img{
+    width: 100vw;
+    height: 100px;
+}
+
+.header{
+    display: flex;
+    color: black;
+    flex-direction: column;
+}
+.headerSpace{
+    height: 30px;
+    color: rgba(33, 170, 158, 1);
+}
+
+
