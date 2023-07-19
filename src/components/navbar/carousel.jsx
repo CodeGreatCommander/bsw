@@ -8,7 +8,7 @@ export default function Carousel(){
     </div>
     <div className="carousel-inner">
       <div className="carousel-item active">
-        <img src={img} className="d-block w-100" alt="..."/>
+        <img src={img} className="d-block w-100 img" alt="..."/>
       </div>
       <div className="carousel-item">
         <img src="..." className="d-block w-100" alt="..."/>

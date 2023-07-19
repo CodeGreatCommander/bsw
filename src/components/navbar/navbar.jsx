@@ -32,7 +32,7 @@ export default function Navbar(){
               <NavLink className="nav-link off" aria-current="page" to="/faqs" >FAQs</NavLink>
             </li>
             <li className="nav-item w-100">
-              <NavLink className="nav-link off" aria-current="page" to="#" >CONTACT US</NavLink>
+              <NavLink className="nav-link off" aria-current="page" to="/contact" >CONTACT US</NavLink>
             </li>
             <li className="nav-item w-100">
               <NavLink className="nav-link off" aria-current="page" to="#" >COUNSELLING</NavLink>
@@ -79,7 +79,7 @@ export default function Navbar(){
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link"  to="#">
+              <NavLink className="nav-link"  to="/contact">
                 CONTACT US
               </NavLink>
             </li>

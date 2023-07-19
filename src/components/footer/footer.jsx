@@ -11,7 +11,7 @@ export default function Footer(){
         <div id="footer">
             <div id="left">
                 <div id="logo">
-                    <img src={logo}/>
+                    <img src={logo}  style={{height:'max-content',width:'17vw'}}/>
                 </div>
                 <div className='text bswintro'>
                 Board of student welfare,<br/>

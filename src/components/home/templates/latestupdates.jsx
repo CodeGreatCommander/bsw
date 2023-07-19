@@ -50,19 +50,19 @@ export default function Latestupdates(){
         <div className='align bgcolor-green' onClick={() => { setviewless(!viewless); }}>
   {window.innerWidth > 600 ? (
     viewless ? (
-      <img src={dropdown} style={{ width: "1.6rem" }} />
+      <img src={dropdown} style={{ width: "1.6rem",height:"max-content"}} />
     ) : (
-      <img src={dropdown} style={{ width: "1.6rem" }} />
+      <img src={dropdown} style={{ width: "1.6rem" ,height:"max-content"}} />
     )
   ) : (
     <div className='mobileviewtext'>
       {viewless ? (
         <>
-          MORE<img src={dropdownmobile} style={{ width: "1.6rem" }} />
+          MORE<img src={dropdownmobile} style={{ width: "1.6rem",height:"max-content"}} />
         </>
       ) : (
         <>
-          LESS<img src={dropdownmobile} style={{ width: "1.6rem" }} />
+          LESS<img src={dropdownmobile} style={{ width: "1.6rem" ,height:"max-content"}} />
         </>
       )}
     </div>

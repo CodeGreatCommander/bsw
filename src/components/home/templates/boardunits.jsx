@@ -70,7 +70,7 @@ export default function BoardUnits(){
             <div className='boardunitstextcoantianer'>
                 <h1 id='boardunitstext'>BOARD UNITS</h1>
             </div>
-            {window.innerWidth > 600 ? (
+            {window.innerWidth > 1000 ? (
             <div className='innerboardunits'>
                 <div className=''><Card/></div>
                 <div className=''><Card/></div>

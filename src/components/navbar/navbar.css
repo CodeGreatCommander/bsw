@@ -1,5 +1,6 @@
 #logo {
   width: 7.30925rem;
+  height: max-content;
 }
 .navigation-bar,.offcanvas {
   background: rgba(33, 170, 158, 1);
@@ -24,6 +25,10 @@
 }
 #carousel{
   padding-bottom:  6.13375rem;
+}
+.navigation-bar .img{
+  height: min-content;
+  border-radius: 0;
 }
 @media only screen and (max-width: 600px) {
   #carousel{

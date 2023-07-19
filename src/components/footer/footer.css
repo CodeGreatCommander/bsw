@@ -45,12 +45,14 @@ li{
 #left{
     margin-right: 3rem;
 }
-.images{
+.outerfooter .images{
     width: 2rem;
+    height: max-content;
 }
 .contactusfooter{
     width: 4rem;
     margin: 1rem;
+    height: max-content;
 }
 .outerfooter .row{
     display: flex;
