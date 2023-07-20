@@ -43,7 +43,7 @@ export default function Footer(){
                         <li className='text li'><a href="#">Contact us</a></li>
                         <li className='text li'><a href="#">Your Dost</a></li>
                         <li className='text li'><a href="#">Webmail</a></li>
-                        <li className='text li'><a href="#">Moodle</a></li>
+                        <li className='text li'><a href="https://moodle.iitd.ac.in" target='_blank'>Moodle</a></li>
                         <li className='text li'><a href="#">Helpline</a></li>
                     </ul>
                 </div>

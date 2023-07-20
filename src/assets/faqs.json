@@ -34,6 +34,31 @@
           "question": "Wgwrs React?",
           "answer": "Reykrererererererererererere library for building user interfaces."
         }
+      ],
+      "withdraw_": [
+        {
+          "id": 1,
+          "question": "What is Lorgrhm Ipsum?",
+          "answer": "Lorem Ipsum jhrjrtkkyr dummy text of the printing and typesetting industry."
+        },
+        {
+          "id": 2,
+          "question": "Wgwrs React?",
+          "answer": "Reykrererererererererererere library for building user interfaces."
+        }
+      ],
+
+      "withaw": [
+        {
+          "id": 1,
+          "question": "What is Lorgrhm Ipsum?",
+          "answer": "Lorem <a style='color: black;' href='https://google.com'>hello</a> Ipsum jhrjrtkkyr dummy text of the printing and typesetting industry."
+        },
+        {
+          "id": 2,
+          "question": "Wgwrs React?",
+          "answer": "Reykrererererererererererere library for building user interfaces."
+        }
       ]
 
   }

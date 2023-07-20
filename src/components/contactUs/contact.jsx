@@ -10,7 +10,7 @@ const Contact = () => {
     <>
    
         <Navbar/>
-        <PageHeading/>
+        <PageHeading heading="Contact Us"/>
         <div className="headerSpace"></div>
         <div className="contactUs">
        
