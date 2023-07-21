@@ -1,16 +1,14 @@
-img{
-    width: 100vw;
-    height: 100px;
-}
-
-.header{
+.h-img{
+    background-image: url("../../../assets/AboutUs.png");
+    height: 200px;
+    width: 100%;
+    color: white;
     display: flex;
-    color: black;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
 }
-.headerSpace{
-    height: 30px;
-    color: rgba(33, 170, 158, 1);
+h1{
+    position: absolute;
 }
-
 

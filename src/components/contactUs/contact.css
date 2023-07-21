@@ -1,9 +1,6 @@
-.contactUs{
-    display: flex;
-    margin-top: 10px;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.contactus{
+    margin-bottom: 30px;
+    overflow: hidden;
 }
 .headerSpace{
     background-color:rgba(33, 170, 158, 1) ;
@@ -11,38 +8,131 @@
 }
 .supervision,.student-team{
     display: flex;
-    gap: 15px;
+    gap: 30px;
     margin: auto;
    align-items: center;
+   justify-content: center;
     flex-direction: column;
 }
 h3{
   color: rgba(33, 170, 158, 1);
   font-weight: bold;
+
+}
+.users{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
 }
 .supervisors , .team{
     display: flex;
-    gap: 20px;
+    gap: 30px;
 }
 .gapline{
     height: 4px;
     align-content: center;
+    margin: auto;
     margin-top: 20px;
     width: 50%;
     background-color: rgba(33, 170, 158, 1);
 }
           
 .secretaries{
-    display: grid;
-    margin-top: 15px;
-    gap: 20px;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: 15px auto;
+    gap: 30px;
 }
 .sec-column{
     display: flex;
+    
     flex-direction: column;
-    gap: 20px;
+    justify-content: center;
+    gap: 30px;
 }
 .sec-title{
+   position: absolute;
+    border-radius: 15px  0 0 15px;
+    height: 341px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 0;
     background-color: rgba(33, 170, 158, 1);
+}
+.sec-title h3{
+    color: white;
+    writing-mode: vertical-lr;
+}
+
+.rep{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: 25px auto;
+    gap: 20px;
+}
+.rep-row{
+    display: flex;
+    gap: 30px;
+}
+
+
+.team-name{
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 25%;
+    display: flex;
+}
+
+.rep-title{
+    position: absolute;
+    border-radius: 15px  0 0 15px;
+    height: 157px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 0;
+    background-color: rgba(33, 170, 158, 1);
+}
+
+
+.rep-title h3{
+    color: white;
+    writing-mode: vertical-lr;
+}
+.reps .article{
+    margin-top: 20px;
+}
+
+@media screen  and (max-width:700px){
+    .team-name{
+        height: 50px;
+        width: max-content;
+        color: white;
+        margin: 0px;
+        margin-top: 20px;
+        padding-left: 30px;
+        padding-top: 7px;
+        padding-right: 10px;
+        margin-bottom:20px; 
+        display: flex;
+        flex-direction: row-reverse;
+        background-color: rgba(33, 170, 158, 1);
+    }
+    .team-name h3{
+        color: white;
+    }
+    .supervisors{
+        flex-direction: column;
+        
+    }
+    .sec-title,.rep-title{
+        display: none;
+    }
+    .gapline{
+        width: 85%;
+    }
 }
