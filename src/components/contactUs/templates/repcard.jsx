@@ -1,18 +1,18 @@
 import React from "react"
-import member from "../../../assets/member.jpg"
 import line from "../../../assets/dotted-line.jpg"
 import {PiPhoneCallFill} from 'react-icons/pi'
-import {BsFillPersonFill} from 'react-icons/bs'
 import {MdEmail} from 'react-icons/md'
+import {FaHome} from 'react-icons/fa'
+import {BsFillPersonFill} from 'react-icons/bs'
 import './member.css'
-import { useState } from "react"
+
 
 const data=[
     1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19
 ]
 
 
-const  MemberCard=(props)=>{
+const  RepCard=(props)=>{
     if(props.type==="PRESIDENT" || props.type==="GENERAL SECRETARY" ){
         return(<article className="member ">
         <h5>{props.type}</h5>
@@ -38,7 +38,7 @@ const  MemberCard=(props)=>{
                     <p>{props.email}</p>
                 </div>
                 <div className="email1">
-                <div ></div>
+                    <FaHome/>
                     <p>{props.house}</p>
                 </div>
             </div>
@@ -58,12 +58,12 @@ const  MemberCard=(props)=>{
 
         </div>
         <div className="desc desc_p">
+                
                 <div className="mobile">
                 <img src={props.image} alt="" />
-                <div className="icon">
+                    <div className="icon">
                     <BsFillPersonFill />
-                </div>
-                </div>
+                </div></div>
                 <div className="member-info member-info_p">
                 <h6 className="name">{props.name}</h6>
                 <div className="call call_p">
@@ -75,13 +75,14 @@ const  MemberCard=(props)=>{
                     <p>{props.email}</p>
                 </div>
                 <div className="email1_r">
-                    <div ></div>
-                    <p>{props.email}</p>
+                    <FaHome/>
+                    <p>{props.house}</p>
                 </div>
             </div>
         </div>
     </article>)
     }
+    
 }
 
-export default MemberCard;
+export default RepCard;

@@ -14,13 +14,22 @@
 }
 .dotted-line{
     display: flex;
-    gap: 2px;
+    gap: 7px;
     margin-bottom: 10px;
 }
 .dotted-line .dot{
     width: 10px;
     height: 3px;
 
+}
+.dotted-line .dotr{
+    width: 10px;
+    height: 3px;
+
+}
+.dotted-line .dot_p{
+    width: 10px;
+    height: 3px;
 }
 
 .desc{
@@ -35,7 +44,7 @@
 img{
     object-fit: cover;
     overflow: hidden;
-    border-radius: 10px ;
+    border-radius: 22px ;
     height: 90px;
     width: 90px;
 }
@@ -48,18 +57,102 @@ img{
 }
 .call{
     display: flex;
-    gap: 2px;
-    height: 30px;
+    gap: 8px;
+    height: 23px;
+    line-height: 12px;
     vertical-align: middle;
     color: aliceblue;
 }
 .email{
     display: flex;
-    gap: 2px;
-    align-content: center;
-    align-items: center;
+    gap: 8px; 
+    height: 23px;
+    line-height: 12px;
     vertical-align: middle;
-    justify-content: flex-start;
-    flex-direction: row;
+    color: aliceblue;
+}
+.email1{
+    display: flex;
+    gap: 8px; 
+    height: 23px;
+    line-height: 12px;
+    vertical-align: middle;
+    color: aliceblue;
+}
+.email_r{
+    display: flex;
+    gap: 8px; 
+    height: 23px;
+    line-height: 12px;
+    vertical-align: middle;
+    color: aliceblue;
+}
+.email1_r{
+    display: flex;
+    gap: 8px; 
+    height: 23px;
+    line-height: 12px;
+    vertical-align: middle;
+    color: aliceblue;
+}
+.email div{
+    height: 1em;
+    width: 1em;
+}
+.email1 div{
+    height: 1em;
+    width: 1em;
+}
+.email1_r div{
+    height: 1em;
+    width: 1em;
+}
+.icon{
+    display: none;
+}
+
+
+@media screen and (max-width:750px) {
+    .call_p{
+        display: none;
+    }
+    .desc_p{
+        flex-direction: column;
+    }
+
+    .dotted-line .dot_p{
+        width: 7px;
+        gap:4px
+
+    }
+    .dotted-line_p{
+        gap: 3px;
+    }
+    .email_r,.email1_r,.email1{
+        display: none;
+    }
+    .member h5{
+        font-size: medium;
+    }
+    .icon{
+        display: flex;
+        height: 40px;
+        background-color: rgba(33, 170, 158, 1);
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+        border-radius: 13px;
+        width: 40px;
+    }
+    .mobile{
+        display: flex;
+        gap: 20px;
+        
+    }
+    .member,.member_p{
+        gap: 8px;
+        padding: 11px 9x;
+    }
+    
 }
 

@@ -5,6 +5,7 @@
 }}
 .outerfooter{
     background-color: rgba(33, 170, 158, 1);
+    overflow: hidden;
 }
 #left .text {
   color: #fff;
@@ -59,5 +60,4 @@ li{
     flex-direction: row;
     justify-content: end;
     align-items: center;
-
 }

@@ -6,10 +6,7 @@ const Header_img = () => {
   return (
     <>
     <div className="h-img">
-
-      <img src={Img} alt="" />
       <h1>CONTACT US</h1>
-      <div className="headerSpace"></div>
     </div>
         
     
