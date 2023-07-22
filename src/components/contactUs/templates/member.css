@@ -112,7 +112,7 @@ img{
 }
 
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:750px) {
     .call_p{
         display: none;
     }

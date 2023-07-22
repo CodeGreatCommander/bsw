@@ -40,6 +40,10 @@ const Contact = () => {
           
         
           <RepCard name="PROf. REETIKA KHERA"image={member} phone="+913232323232" email ="something@gmail.com" type="GENERAL SECRETARY" house="Aravali"/>
+          <div className="dep">
+            <h3 className='op'>Operations</h3>
+            <h3 className='mentor'>Mentorship</h3>
+          </div>
             <div className="team">
               
             <RepCard name="PROf. REETIKA KHERA"image={member} phone="+913232323232" email ="something@gmail.com" type="DEP.GENERAL SECRETARY" house="Aravali"/>
