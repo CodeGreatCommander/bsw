@@ -37,7 +37,12 @@
     margin: 5px;
     cursor: pointer;
   }
+.colorbar{
   
+    background-color:rgba(33, 170, 158, 1) ;
+    height: 30px;
+
+}
   
   /* CollapsibleQuestion component styles (optional) */
   /* You can style the CollapsibleQuestion component separately if needed */

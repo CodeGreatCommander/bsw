@@ -20,10 +20,10 @@ export default function Navbar(){
               <NavLink className="nav-link off" aria-current="page" to="/"  >HOME</NavLink>
             </li>
             <li className="nav-item w-100">
-              <NavLink className="nav-link off" aria-current="page" to="#" >ABOUT US</NavLink>
+              <NavLink className="nav-link off" aria-current="page" to="/" >ABOUT US</NavLink>
             </li>
             <li className="nav-item w-100">
-              <NavLink className="nav-link off" aria-current="page" to="#" >WHAT WE DO</NavLink>
+              <NavLink className="nav-link off" aria-current="page" to="/" >WHAT WE DO</NavLink>
             </li>
             <li className="nav-item w-100">
               <NavLink className="nav-link off" aria-current="page" to="#" >RESOURCES</NavLink>
@@ -59,12 +59,12 @@ export default function Navbar(){
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link"  to="#">
+              <NavLink className="nav-link"  to="/">
                 ABOUT US
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link"  to="#">
+              <NavLink className="nav-link"  to="/">
                 WHAT WE DO
               </NavLink>
             </li>

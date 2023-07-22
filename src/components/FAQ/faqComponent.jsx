@@ -23,7 +23,7 @@ const FaqComponent = () => {
           </button>
         ))}
       </div>
-
+          
       {faqsData[selectedCategory].map((faq) => (
         <CollapsibleQuestion
           key={faq.id}

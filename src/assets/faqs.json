@@ -2,11 +2,16 @@
     "general": [
       {
         "id": 1,
-        "question": "What is Lorem Ipsum?",
+        "question": "What is Lorem Ipsum?__q1",
         "answer": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
       },
       {
         "id": 2,
+        "question": "What is React?",
+        "answer": "React is a JavaScript library for building user interfaces."
+      },
+      {
+        "id": 3,
         "question": "What is React?",
         "answer": "React is a JavaScript library for building user interfaces."
       }
