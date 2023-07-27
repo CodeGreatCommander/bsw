@@ -4,6 +4,7 @@ import HomePage from "./pages/HomePage";
 import Faq from './pages/Faq';
 import ContactPage from './pages/contactUs';
 import Mentorship from './components/mentorship/mentorship';
+import EventPage from './components/events/event';
 function App() {
   return (
     
@@ -11,8 +12,9 @@ function App() {
       <Route path="/" element={<HomePage/>} />
       <Route path='/contact' element={<ContactPage/>}/>
       <Route path="/mentorship" element={<Mentorship/>}/>
-      <Route path="/faqs" element={<Faq/>}>
-      </Route>
+      <Route path="/faqs" element={<Faq/>}/>
+      <Route path='/events' element={<EventPage/>}/>
+      
     </Routes>
      
   );

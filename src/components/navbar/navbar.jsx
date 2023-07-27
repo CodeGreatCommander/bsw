@@ -37,6 +37,9 @@ export default function Navbar(){
             <li className="nav-item w-100">
               <NavLink className="nav-link off" aria-current="page" to="#" >COUNSELLING</NavLink>
             </li>
+            <li className="nav-item w-100">
+              <NavLink className="nav-link off" aria-current="page" to="/events" >EVENTS</NavLink>
+            </li>
           </ul>
         </div>
       </div>
@@ -86,6 +89,11 @@ export default function Navbar(){
             <li className="nav-item">
               <NavLink className="nav-link"  to="#">
                 COUNSELLING
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink className="nav-link"  to="/events">
+                EVENTS
               </NavLink>
             </li>
           </ul>

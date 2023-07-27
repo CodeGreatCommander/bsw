@@ -15,18 +15,21 @@
 .event-title{
     width: 86%;
     display: flex;
-   
+    position: relative;
     gap: 80px;
+    
     margin-left:14%;
 }
 .event-title .play{
-    height: 20px;
+    height: 35px;
     border: 1px solid black;
-    width: 20px;
+    width: 35px;
+    left: 40%;
+    position: absolute;
     display: flex;
     justify-content: center;
     align-self: center;
-    font-size: large;
+    font-size: 35px;
     color: rgba(33, 170, 158, 1);
     border-radius: 50%;
 }
@@ -43,10 +46,10 @@
     font-size: 17px;
 }
 .gap-line{
-    height: 3px;
-    margin-top: 20px;
+    height: 2px;
+    margin-top: 40px;
     width: 60%;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     align-items: center;
     margin-left: 10%;
     background-color: rgba(33, 170, 158, 1);
@@ -73,3 +76,31 @@
    font-size: 20px;
     line-height: 10px;
 }
+.albums{
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+.albums .album-title{
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    border-radius: 22px 0 0 22px;
+    align-items: center;
+    background: rgba(33, 170, 158, 1);
+    color: white;
+}
+.album-title h5{
+    writing-mode: vertical-lr;
+}
+.true{
+    transition: 800ms ease;
+    transform: rotate(90deg);
+}
+
+.camp{
+    margin-bottom: 40px;
+}
+
+
