@@ -25,7 +25,7 @@
 .dotted-line .dotr{
     width: 10px;
     height: 3px;
-
+    margin-bottom: 10px;
 }
 .dotted-line .dot_p{
     width: 10px;
@@ -121,7 +121,7 @@ img{
     }
 
     .dotted-line .dot_p{
-        width: 7px;
+        width: 4px;
         gap:4px
 
     }
@@ -150,7 +150,7 @@ img{
         
     }
     .member,.member_p{
-        gap: 8px;
+        gap: 4px;
         padding: 11px 9x;
     }
     

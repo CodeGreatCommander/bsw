@@ -4,7 +4,7 @@ import HomePage from "./pages/HomePage";
 import Faq from './pages/Faq';
 import ContactPage from './pages/contactUs';
 import Mentorship from './components/mentorship/mentorship';
-import EventPage from './components/events/event';
+import Events from './pages/eventPage';
 function App() {
   return (
     
@@ -13,7 +13,7 @@ function App() {
       <Route path='/contact' element={<ContactPage/>}/>
       <Route path="/mentorship" element={<Mentorship/>}/>
       <Route path="/faqs" element={<Faq/>}/>
-      <Route path='/events' element={<EventPage/>}/>
+      <Route path='/events' element={<Events/>}/>
       
     </Routes>
      
