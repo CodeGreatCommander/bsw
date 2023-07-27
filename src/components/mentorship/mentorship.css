@@ -1,0 +1,144 @@
+.mentorship{
+    padding-left: 12.5rem;
+    overflow-x: hidden;
+}
+.mentorship .heading{
+    color: #000;
+font-family: Poppins;
+font-size: 2.5em;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+}
+.mentorship .mentor-question{
+    color: #000;
+font-family: Raleway;
+font-size: 1.2rem;
+font-style: normal;
+font-weight: 400;
+margin-top: 1rem;
+margin-bottom: 1rem;
+line-height: 1.15rem; /* 115% */
+}
+.outer-container-mentorship{
+    display: flex;
+    flex-direction: row;
+}
+.left-mentorship{
+    flex-basis: 60%;
+}
+.right-mentorship{
+    flex-basis: 40%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+}
+.heading-container-mentorship{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.mentorship .images{
+    width: 2rem;
+    height: max-content;
+}
+.mentorship .mentor-answer{
+    color: #000;
+text-align: justify;
+font-family: Raleway;
+font-size: 1.2rem;
+font-style: normal;
+font-weight: 300;
+opacity: 0.9900000095367432;
+line-height: 1.3rem; /* 127.778% */
+margin-bottom: 2rem;
+}
+.mentorship .question-block{
+    width: 100%;
+    white-space: normal;
+    padding-left: 2rem;
+}
+.mentorship .card-mentor{
+    background-color: rgba(33, 170, 158, 1);
+    padding: 2rem;
+    margin-left: 3rem;
+    border-top-left-radius:2rem ;
+    border-bottom-left-radius:2rem ;
+}
+.mentorship .card-mentor .text{
+    color: #FFF;
+text-align: justify;
+font-family: Raleway;
+font-size: 1.7rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+padding-right: 8rem;
+padding-bottom: 2rem;
+padding-top: 1rem;
+}
+.mentorship .card-mentor .text-author{
+    color: #404040;
+font-family: Raleway;
+font-size: 1.3rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.mentorship .specialquestion-card{
+    background-color: rgba(33, 170, 158, 1);
+    padding: 1rem;
+    border-radius:2rem ;
+    color:white;
+    margin-bottom: 1rem;
+}
+.mentorship .specialquestion-container{
+    padding-right: 7rem;
+    position: relative;
+}
+@media only screen and (max-width: 700px){
+    .mentorship{
+        padding-left: 1rem;
+    }
+    .mentorship .heading{
+        color: #000;
+font-family: Poppins;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: uppercase;
+    }
+    .mentorship .mentor-question{
+        color: rgba(0, 0, 0, 0.90);
+font-family: Raleway;
+font-size: 1.1rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+    }
+    .mentorship .card-mentor{
+        padding: 0.5rem;
+        min-width: 10rem;
+        height: max-content;
+    }
+    .mentorship .card-mentor .text{
+        font-size: 1.2rem;
+        padding-left: 0.5rem;
+        padding-right: 1rem;
+    }
+    .mentorship .card-mentor .text-author{
+        font-size: 1.1rem;
+    }
+    .mentorship .specialquestion-container{
+        padding: 1rem;
+    }
+    .mentorship .mentor-answer{
+        font-size: 0.8rem;
+        text-align: left;
+        padding-right: 0.2rem;
+    }
+}
