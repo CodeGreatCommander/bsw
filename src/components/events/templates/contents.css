@@ -1,0 +1,45 @@
+.dotted-line{
+    display: flex;
+    gap: 7px;
+    margin-bottom: 10px;
+}
+.dotted-line .dot{
+    width: 10px;
+    height: 3px;
+
+}
+.contents{
+    height: max-content;
+    padding: 10px;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    width: max-content;
+    vertical-align: middle;
+    gap: 5px;
+    border-radius: 20px;
+    background:  #404040;
+    
+}
+.contents h4{
+    font-size: 20px;
+    margin: auto;
+}
+.cir{
+    height: 5px;
+    margin-top: 5px;
+    width: 5px;
+    background: white;
+    border-radius: 50%;
+}
+.con-row{
+    display: flex;
+    align-content: center;
+   height: 30px;
+   line-height: 18px;
+    margin-left: 10px;
+    gap: 10px;
+}
+.con-row p{
+    font-size: 15px;
+}

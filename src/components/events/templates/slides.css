@@ -1,0 +1,15 @@
+.slides{
+    width: 85%;
+    margin-left: 15%;
+}
+
+.slide{
+    width: 245px;
+    height: 160px;
+}
+
+.slides .img{
+    width: 245px;
+    height: 160px;
+    object-fit: cover;
+}
