@@ -8,6 +8,7 @@ const Faq = () =>{
         <>
         <Navbar />
         <PageHeading heading="FAQs" />
+        <div className="colorbar"></div>
         <FaqComponent />
         <Footer/>
         </>
