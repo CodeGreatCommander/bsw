@@ -4,8 +4,8 @@ export default function PageHeading(props){
     return (
 
     
-    <div className="head"><img src={img} alt="hi" className="title" />
-    <div className="centeredText">
+    <div className="head"><img src={img} alt="hi" className="title_" />
+    <div className="centeredText_">
         <h1>{props.heading}</h1>
         
     </div>
