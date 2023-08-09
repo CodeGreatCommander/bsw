@@ -56,7 +56,7 @@ export default function Language() {
         {active ? (<>
           <Card className="d-flex flex-column mb-3">
             <div className="text-white mb-3" style={{fontSize:'1.3rem',fontWeight:'bold'}}>
-              <img src={bc} style={{maxWidth:'10rem',borderRadius:'0rem'}}/>
+              <img src={bc} style={{width:'10rem',height:'max-content',borderRadius:'0rem'}}/>
             </div> 
           <div className="text-start pe-2 text-white" style={{fontSize:'0.9rem'}}>
           To ensure the smooth functioning of the programme, attendance of each mentor is marked in a 2 way process, via register and google drive submissions. In each hostel we have provided white boards and markers in visitors/common rooms to enhance the teaching by the mentors.
