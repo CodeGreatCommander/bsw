@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.85ab13ca.css",
+    "main.js": "/static/js/main.9ec05047.js",
+    "static/js/787.1abd5a6f.chunk.js": "/static/js/787.1abd5a6f.chunk.js",
+    "static/media/AboutUs.png": "/static/media/AboutUs.1ddb186abf1fd9ec4c54.png",
+    "static/media/slide_image.jpg": "/static/media/slide_image.7513652d22c6d0ed002e.jpg",
+    "static/media/member.jpg": "/static/media/member.7df6e136a5f8ec384077.jpg",
+    "static/media/BRITISHLOGO.png": "/static/media/BRITISHLOGO.23120dbbca7a33df07c4.png",
+    "static/media/Logo.svg": "/static/media/Logo.94a9257fc4bff0ebfaf9fc9221cb1e6e.svg",
+    "static/media/instagram.svg": "/static/media/instagram.d6b7ba02019250652ba4ac6c3bfa6e3b.svg",
+    "static/media/taskcompleted.svg": "/static/media/taskcompleted.b1201dd6c1ed8b5f9bb7fb0a547dcc7c.svg",
+    "static/media/linkedin.svg": "/static/media/linkedin.b791b31ace389eeba0bef958403dae52.svg",
+    "index.html": "/index.html",
+    "static/media/call.svg": "/static/media/call.81f8fa363c0c1bc6ce4dcb3c58e4f5b2.svg",
+    "static/media/facebook.svg": "/static/media/facebook.3e38046bbd315d106c5c9f51adae26ba.svg",
+    "static/media/mail.svg": "/static/media/mail.6232ff9de0dc0ea5d6a1aa1a5a42c6ed.svg",
+    "static/media/down_mentorship.svg": "/static/media/down_mentorship.0b1b29f4cca0acd7c63fa3f085f58a16.svg",
+    "static/media/right_mentorship.svg": "/static/media/right_mentorship.7e8ef43d4a801b3df777f34b9ea48a76.svg",
+    "static/media/circle.svg": "/static/media/circle.7e97ce2ad31244a57513b031ce137443.svg",
+    "static/media/dropdownmobile.svg": "/static/media/dropdownmobile.b66f45ced49f7c369ce153337fc30bb5.svg",
+    "static/media/dropdown.svg": "/static/media/dropdown.523b58174b9906d746ce2bbb59eba0d0.svg",
+    "main.85ab13ca.css.map": "/static/css/main.85ab13ca.css.map",
+    "main.9ec05047.js.map": "/static/js/main.9ec05047.js.map",
+    "787.1abd5a6f.chunk.js.map": "/static/js/787.1abd5a6f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.85ab13ca.css",
+    "static/js/main.9ec05047.js"
+  ]
+}
