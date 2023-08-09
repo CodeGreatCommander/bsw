@@ -73,6 +73,11 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  padding-left:0.5rem;
+}
+.home .lubody{
+  padding-left: 0.5rem;
+  padding-right:0.5rem;
 }
 .home .bgcolor-green {
   background-color: rgba(33, 170, 158, 1);

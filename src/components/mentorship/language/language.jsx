@@ -3,6 +3,7 @@ import Heading from "../templates/heading";
 import Question from "../templates/question";
 import Card from "../templates/card";
 import circle from '../../../assets/circle.svg'
+import bc from '../../../assets/BRITISHLOGO.png'
 
 function Carousel({cards}){
   return (
@@ -55,8 +56,7 @@ export default function Language() {
         {active ? (<>
           <Card className="d-flex flex-column mb-3">
             <div className="text-white mb-3" style={{fontSize:'1.3rem',fontWeight:'bold'}}>
-              <img src={circle} style={{width:'1.3rem',height:'max-content'}}/><img src={circle} style={{width:'1.3rem',height:'max-content'}}/>BRITISH<br/>
-              <img src={circle} style={{width:'1.3rem',height:'max-content'}}/><img src={circle} style={{width:'1.3rem',height:'max-content'}}/>COUNCIL<br/>
+              <img src={bc} style={{maxWidth:'10rem',borderRadius:'0rem'}}/>
             </div> 
           <div className="text-start pe-2 text-white" style={{fontSize:'0.9rem'}}>
           To ensure the smooth functioning of the programme, attendance of each mentor is marked in a 2 way process, via register and google drive submissions. In each hostel we have provided white boards and markers in visitors/common rooms to enhance the teaching by the mentors.

@@ -44,7 +44,7 @@ function JoinBlackCard(){
   <path d="M3 12L5.88675 7H0.113249L3 12ZM3.5 7.5L3.5 0H2.5L2.5 7.5H3.5Z" fill="#21AA9E"/>
 </svg>}
       <BlackCard index={2} style={{position:window.innerWidth>500?'absolute':'relative',top:0,left:window.innerWidth>500?"40%":"0"}}>Algorithm driven mapping connects the students and mentors based on their interests and goals.</BlackCard>
-      {window.innerWidth>500?<svg style={{position:'absolute',top:'25%',right:'-20%',zIndex:-1}} xmlns="http://www.w3.org/2000/svg" width="160" height="85" viewBox="0 0 322 174" fill="none">
+      {window.innerWidth>500?<svg style={{position:'absolute',top:'25%',right:'-7%',zIndex:-1}} xmlns="http://www.w3.org/2000/svg" width="160" height="85" viewBox="0 0 322 174" fill="none">
   <path d="M0.311523 2.50488C77.734 10.5289 59.3251 41.1732 120.085 85.9544C153.833 110.828 292.135 75.5234 319.266 172.614" stroke="black" stroke-width="4.90699" stroke-dasharray="16.36 16.36"/>
 </svg>:<svg xmlns="http://www.w3.org/2000/svg" width="10" height="20" viewBox="0 0 6 12" fill="none" className="align-self-center">
   <path d="M3 12L5.88675 7H0.113249L3 12ZM3.5 7.5L3.5 0H2.5L2.5 7.5H3.5Z" fill="#21AA9E"/>
