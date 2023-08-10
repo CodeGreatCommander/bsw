@@ -8,7 +8,6 @@ import Events from './pages/eventPage';
 import Mail from './pages/Mail';
 function App() {
   return (
-    
     <Routes>
       <Route path="/" element={<HomePage/>} />
       <Route path='/contact' element={<ContactPage/>}/>
@@ -18,7 +17,7 @@ function App() {
       <Route path='/mail' element={<Mail/>}/>
 
     </Routes>
-     
+
   );
 }
 
