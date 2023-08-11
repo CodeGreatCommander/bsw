@@ -27,7 +27,8 @@
   padding-bottom:  6.13375rem;
 }
 .navigation-bar .img{
-  height: min-content;
+  height: max-content;
+  width:100%;
   border-radius: 0;
 }
 img{
