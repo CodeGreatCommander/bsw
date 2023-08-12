@@ -48,16 +48,19 @@ li{
 }
 .outerfooter .images{
     width: 2rem;
-    height: max-content;
+    height:auto;
 }
 .contactusfooter{
     width: 4rem;
     margin: 1rem;
-    height: max-content;
+    height: auto;
 }
 .outerfooter .row{
     display: flex;
     flex-direction: row;
     justify-content: end;
     align-items: center;
+}
+.outerfooter img{
+    border-radius: 0;
 }

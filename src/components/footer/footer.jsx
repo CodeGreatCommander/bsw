@@ -17,16 +17,16 @@ export default function Footer(){
                 Board of student welfare,<br/>
                 Indian Institute of Delhi.
                 </div>
-                <div className='row'>
-                    <div className='col-3'>
+                <div className='row ps-2' >
+                    <div className='col-2 me-2'>
                         <img src={call} className='images'/>
                     </div>
-                    <div className='col text'>
+                    <div className='col text' style={{paddingLeft:0}}>
                     <span style={{color:'black'}}>+91</span> 10000 100000,<br/>
                     <span style={{color:'black'}}>+91</span> 010101 0101010.
                     </div>
                 </div>
-                <div className='row'>
+                <div className='row ps-2'>
                     <div className='col-2'>
                         <img src={mail} className='images'/>
                     </div>

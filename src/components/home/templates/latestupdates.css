@@ -78,6 +78,7 @@
 .home .lubody{
   padding-left: 0.5rem;
   padding-right:0.5rem;
+  transition:height 0.3s ease-in-out;
 }
 .home .bgcolor-green {
   background-color: rgba(33, 170, 158, 1);

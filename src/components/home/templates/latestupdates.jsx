@@ -52,7 +52,7 @@ export default function Latestupdates(){
     viewless ? (
       <img src={dropdown} style={{ width: "1.6rem",height:"max-content"}} />
     ) : (
-      <img src={dropdown} style={{ width: "1.6rem" ,height:"max-content"}} />
+      <img src={dropdown} style={{ width: "1.6rem" ,height:"max-content",transform: "scaleY(-1)"}} />
     )
   ) : (
     <div className='mobileviewtext'>
@@ -62,7 +62,7 @@ export default function Latestupdates(){
         </>
       ) : (
         <>
-          LESS<img src={dropdownmobile} style={{ width: "1.6rem" ,height:"max-content"}} />
+          LESS<img src={dropdownmobile} style={{ width: "1.6rem" ,height:"max-content",transform: "scaleY(-1)"}} />
         </>
       )}
     </div>

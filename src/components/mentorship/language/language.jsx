@@ -7,16 +7,17 @@ import bcr from '../../../assets/BRITISHLOGORIGHT.png'
 
 function Carousel({cards}){
   return (
-    <div className="d-flex flex-row" style={{alignSelf:'center',overflowX:'scroll',width:(window.innerWidth<700?0.7:0.5)*window.innerWidth,borderBottomWidth:'2rem',borderBottomColor:"black",borderLeftWidth:'0.5rem',borderLeftColor:"black"}}>
+    <div style={window.innerWidth>700?{borderLeft:"solid 0.2rem black",borderBottom:"solid 1rem black",borderRadius:"0.5rem",paddingLeft:"0.3rem",alignSelf:'center'}:{alignSelf:'center'}}>
+    <div className="d-flex flex-row" style={{overflowX:'scroll',width:(window.innerWidth<700?0.75:0.5)*window.innerWidth}}>
       {cards.map((card)=>{
         return(
-          <div className="specialquestion-card text-center m-2" style={{minWidth:window.innerWidth>700?'19rem':"14rem"}}>
+          <div className="specialquestion-card text-center m-2" style={{minWidth:window.innerWidth>700?'19rem':"15rem"}}>
             <div style={{paddingBottom:'1rem'}}>{card.img}{card.heading}</div>
             <div style={{fontSize:'0.8rem'}}>{card.body}</div>
           </div>
         )
       })}
-    </div>
+    </div></div>
   )
 }
 
@@ -79,7 +80,7 @@ export default function Language() {
  The objective is to help students who are not comfortable with English or Hindi understand and comprehend the language"/>
           <Card className="d-flex flex-row mb-3">
             <div className="text-white mb-1 d-flex flex-column justify-content-end" style={{fontSize:'1.3rem',fontWeight:'bold'}}>
-              <img src={bcr} style={{height:'9rem',width:'max-content',borderRadius:'0rem',marginRight:'0.5rem',marginLeft:'0.25rem'}}/>
+              <img src={bcr} style={{height:'9rem',width:'auto',borderRadius:'0rem',marginRight:'0.5rem',marginLeft:'0.25rem'}}/>
             </div> 
           <div className="text-start pe-2 text-white" style={{fontSize:'0.9rem'}}>
           To ensure the smooth functioning of the programme, attendance of each mentor is marked in a 2 way process, via register and google drive submissions. In each hostel we have provided white boards and markers in visitors/common rooms to enhance the teaching by the mentors.
