@@ -42,41 +42,7 @@
 .step_cont{
   max-width: 500px;
 }
-.stepNumber{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: #21AA9E;
-  width: 44px;
-  height: 40px;
-  border-radius: 50%;
-  color:white;
-  font-weight: 700;
-  margin-right: -7% ;
-  z-index: 4;
-}
-.stepBody {
-  width: 100%;
-  padding: 5px;
 
-  margin-left: 5%;
-  background-color: #404040;
-  color: white;
-  border: none;
-  border-radius: 15px;
-  /* height: 40px; */
-  text-align: center; /* Center the text horizontally */
-
-}
-.device_name{
-  /* text-decoration: underline; */
-  margin-top: 25px;
-  text-transform: uppercase;
-  color: black;
-  font-weight: bold;
-  margin-bottom: -10px;
-}
 .hh {
   font-weight: 600;
 }

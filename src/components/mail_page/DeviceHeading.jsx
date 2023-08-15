@@ -1,3 +1,4 @@
+import "./mail.css";
 export default function DeviceHeading(props){
     return (
         <>

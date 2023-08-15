@@ -1,0 +1,53 @@
+.stepNumber{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #21AA9E;
+    width: 44px;
+    height: 40px;
+    border-radius: 50%;
+    color:white;
+    font-weight: 700;
+    margin-right: -10% ;
+    z-index: 4;
+  }
+  .stepBody {
+    width: 100%;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 5%;
+    background-color: #404040;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    /* height: 40px; */
+    text-align: center; /* Center the text horizontally */
+  
+  }
+
+  .corner_and{
+    position: relative;
+    font-size: 16px;
+    right: 0px;
+    
+  }
+  .device_name{
+    /* text-decoration: underline; */
+    margin-top: 50px;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    margin-bottom: -10px;
+  }
+
+.space_ {
+    height: 60px;
+}
+
+.email_top{
+    border: 2px dashed #404040;
+    border-radius: 20px;
+    padding: 30px;
+}
