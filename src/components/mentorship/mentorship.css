@@ -144,3 +144,26 @@ line-height: normal;
         padding-right: 0.2rem;
     }
 }
+.scroll-container {
+    scrollbar-width: thin; /* Set the width of the scrollbar (only Firefox) */
+    scrollbar-color: #333 #222; /* Thumb and track colors (only Firefox) */
+  }
+.scroll-container::-webkit-scrollbar {
+    height: 6px;
+    padding-left: 2rem;
+    background-color: black; /* Width of the scrollbar */
+  }
+  
+  .scroll-container::-webkit-scrollbar-thumb {
+    background-color: #000000; /* Color of the thumb (scrollbar handle) */
+    border-radius: 6px; /* Rounded corners for the thumb */
+  }
+  
+  .scroll-container::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* Color of the thumb on hover */
+  }
+  
+  .scroll-container::-webkit-scrollbar-track {
+    background-color: #ffffff; /* Color of the track (scrollbar background) */
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.5);
+}

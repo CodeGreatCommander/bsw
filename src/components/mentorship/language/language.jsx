@@ -8,7 +8,7 @@ import bcr from '../../../assets/BRITISHLOGORIGHT.png'
 function Carousel({cards}){
   return (
     <div style={window.innerWidth>700?{borderLeft:"solid 0.2rem black",borderBottom:"solid 1rem black",borderRadius:"0.5rem",paddingLeft:"0.3rem",alignSelf:'center'}:{alignSelf:'center'}}>
-    <div className="d-flex flex-row" style={{overflowX:'scroll',width:(window.innerWidth<700?0.75:0.5)*window.innerWidth}}>
+    <div className={"d-flex flex-row mb-1 "+ (window.innerWidth>700?"scroll-container":"")} style={{overflowX:'scroll',width:(window.innerWidth<700?0.75:0.5)*window.innerWidth}}>
       {cards.map((card)=>{
         return(
           <div className="specialquestion-card text-center m-2" style={{minWidth:window.innerWidth>700?'19rem':"15rem"}}>
