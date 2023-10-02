@@ -1,0 +1,116 @@
+.emergency .green{
+    color:#00bfa5;
+}
+@media (max-width:700px){
+    .emergency{
+        padding:2rem 2rem;
+    }
+    .emergency .intro-text{
+        color: #000;
+        text-align: justify;
+        font-family: Raleway;
+        font-size: 0.9rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .emergency .contact-bar{
+        display:flex;
+        justify-content:space-between;
+        padding:1rem 0.5rem 1rem 1rem;
+    }
+    .emergency .contact-name{
+        color: rgba(0, 0, 0, 0.70);
+        font-family: Raleway;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    .emergency .heading{
+        color: #000;
+        font-family: Poppins;
+        font-size: 1.125rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+    .emergency .container-block{
+        display:flex;
+        justify-content:space-between;
+        position: relative;
+    }
+    .emergency hr{
+        border: 0; /* Remove the default border */
+        border-top: 3px solid #00bfa5; /* Set the color and thickness */
+        margin-top: 0rem;
+        margin-bottom: 0.3rem;
+    }
+    .emergency .backimg{
+        position: absolute;
+        right: -15px;
+        top: 60px;
+    }
+    .emergency .bg-image{
+        width: 130px;
+    }
+}
+@media(min-width:700px){
+    .emergency{
+        padding:2rem 12rem;
+    }
+    .emergency .intro-text{
+        color: #000;
+        font-family: Raleway;
+        font-size: 0.9rem;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 141.4%; /* 2.89106rem */
+        letter-spacing: 0.08181rem;
+        padding-right: 15rem;
+        padding-left: 3rem;
+    }
+    .emergency .contact-bar{
+        display:flex;
+        margin-right: 6rem;
+        margin-left: 1rem;
+        justify-content:space-between;
+        padding:2rem 0;
+    }
+    .emergency .contact-name{
+        color: #000;
+        text-align: justify;
+        font-family: Raleway;
+        font-size: 1.2rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 1.1rem; /* 95.833% */
+    }
+    .emergency hr{
+        border: 0; /* Remove the default border */
+            border-top: 3px solid rgba(0, 0, 0, 0.34); /* Set the color and thickness */
+            margin-top: 0rem;
+            margin-bottom: 0.3rem;
+    }
+    .emergency .heading{
+        color: #000;
+        font-family: Poppins;
+        font-size: 2.5rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: uppercase;
+        margin:3rem 0 1rem 0;
+    }
+    .emergency .default{
+        padding-right: 6rem;
+    }
+    .emergency .body-of{
+        padding-right: 6rem;
+    }
+    .emergency .container-block{
+        display:flex;
+        justify-content:space-between;
+        padding-right: 7rem;
+    }
+}

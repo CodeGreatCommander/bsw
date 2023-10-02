@@ -1,4 +1,4 @@
-#logo {
+/* #logo {
   width: 7.30925rem;
   height: auto;
 }
@@ -9,7 +9,7 @@
   color: white;
   font-family: Poppins;
   font-weight: 800;
-  /* text-decoration-line: underline; */
+
 }
 .active {
   color: #fff!important;
@@ -19,7 +19,6 @@
   text-decoration-line: underline;
 }
 .offcanvas-body .active{
-  /* background-color: rgba(54, 102, 98, 1)!important; */
   color: #fff!important;
   font-weight: 800;
 }
@@ -49,4 +48,112 @@ img{
   }
 }
 
-
+ */
+#carousel img{
+  height: auto;
+  border-radius: 0rem;
+}
+#carousel{
+  background-color:rgba(33, 170, 158, 1) ;
+}
+@media screen and (min-width: 700px) {
+  .navbar{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(33, 170, 158, 1);
+  }
+  .navbar .links{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .navbar #Logo{
+    width:7rem;
+    height: auto;
+    border-radius: 0rem;
+  }
+  .navbar .nav-link{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1.1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .navbar .activ{
+    text-decoration: underline;
+  }
+  #carousel{
+    padding-bottom:  6.13375rem;
+  }
+}
+@media  screen and (max-width:700px) {
+  .navbar{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(33, 170, 158, 1);
+    justify-content: space-between;
+    position: relative;
+  }
+  .navbar #Logo{
+    width:7rem;
+    height: auto;
+    border-radius: 0rem;
+  }
+  .navbar .no-show{
+    display: none;
+  }
+  .navbar #menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    align-self: center;
+    margin-right: 20px;
+  }
+  .navbar .line {
+    width: 30px;
+    height: 3px;
+    background-color: white;
+    margin: 2.6px 0;
+  }
+  .navbar .links:not( .no-show){
+    padding-top: 1rem;
+    position: fixed;
+    top:0;
+    right: 0;
+    height:100vh;
+    width:45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    background-color: rgba(33, 170, 158, 1);
+    z-index: 10;
+    gap:8px;
+    box-shadow: -4px 4px 12px 3px rgba(0, 0, 0, 0.25);
+  }
+  .navbar .nav-link{
+    padding-left: 1rem;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1.1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .navbar .activ{
+    background-color: rgba(54, 102, 98, 1);
+    width: 100%;
+  }
+  .navbar .close{
+    align-self: end;
+    margin-right: 1rem;
+  }
+  #carousel{
+    padding-bottom:  1.2rem;
+  }
+  
+}

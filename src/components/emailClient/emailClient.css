@@ -1,0 +1,131 @@
+@media (max-width:700px){
+    .laptop{
+        display:none;
+    }
+    .emailClient .block{
+        padding: 2rem 0 2rem 0;
+    }
+    .emailClient .initial-text{
+        color: #000;
+        font-family: Raleway;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 20px;
+        padding: 1rem 1rem 0 1rem  ;
+        width: 100vw;
+    }
+    .emailClient .text-block{
+        padding: 0.4rem;
+        border-radius: 0.6rem;
+        border: 2.3px solid #404040;
+        background: #404040;
+        width:20rem;
+        position: relative;
+        align-self: center;
+    }
+    .emailClient .text-block .text{
+        color: #FFF;
+        text-align: center;
+        font-family: Raleway;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 23px;
+    }
+    .emailClient .left-block{
+        display: flex;
+        flex-direction: column;   }
+    .emailClient .left-block .h1{
+        text-align: left;
+        padding-left: 1.8rem;
+        color: #030303;
+        font-family: Poppins;
+        font-size: 2.5rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+}
+@media(min-width:700px){
+    .mobile{
+        display:none;
+    }
+    .emailClient .block{
+        padding-left: 15%;
+        margin-bottom: 4rem;
+        display: flex;
+        flex-direction: row;
+    }
+    .emailClient .left-block{
+        flex-basis:75%;
+    }
+    .emailClient .right-block{
+        flex-basis:25%;
+        align-self: center;
+    }
+    .emailClient .text-block{
+        padding: 0.4rem;
+        border-radius: 1.2rem;
+        border: 2.3px solid #404040;
+        background: #404040;
+        width:52rem;
+        position: relative;
+        margin: 2rem 4rem 0 0;
+    }
+    .emailClient .text-block .text{
+        color: #FFF;
+        text-align: center;
+        font-family: Raleway;
+        font-size: 1.2rem;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        padding:0.8rem 0 0.8rem 0 ;
+    }
+    .emailClient .index{
+        color: #FFF;
+        text-align: center;
+        font-family: Raleway;
+        display: flex;
+        align-items: center;
+        font-size: 2.4rem;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        background-color: #21AA9E;
+        position: absolute;
+        left:-20px;
+        top:0px;
+        border-radius: 4rem;
+        width:4rem;
+        height:4rem;
+        justify-content: space-evenly;
+    }
+    .emailClient .block .image-container{
+        width: 100%;
+        padding: 1rem;
+        background-color: #21AA9E;
+        border-radius: 1.2rem  0  0 1.2rem;
+    }
+    .emailClient .block img{
+        width:200px;
+        height: 200px;
+    }
+    .emailClient .left-block .h1{
+        text-align: left;
+        color: #030303;
+        font-family: Poppins;
+        font-size: 2.5rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+    .emailClient hr {
+            border: 0; /* Remove the default border */
+            border-top: 3px solid rgba(52, 172, 194); /* Set the color and thickness */
+            margin-top: 0rem;
+            margin-bottom: 2rem;
+        }
+}
